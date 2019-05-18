@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Niuwedia TV
+    </title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+    <i class="icon-menu burger-button" id="burger-menu"></i>
+    
+    <header class="header">
+        <div class="container">
+        <div class="top">
+            <div class="top2">
+                <ul>
+                    <li><a href="#">Fundación Niuwedia</a></li>
+                    <li><a href="#">Ewi Radio</a></li>
+                    <li><a href="#">e-ducando</a></li>
+                    <li><a href="#">Directorio Corporativo</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="back1"></div>
+        <div class="ancho">
+            <figure class="logo">
+                 <img src="img/niuwedia-logo-01.png" width="220px" height="80" />
+            </figure>
+            <nav class="menu is-active">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Portafolio de Negocios</a></li>
+                    <li><a href="#">Sala de Prensa</a></li>
+                    <li><a href="#">Relación con Inversionistas</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>  
+        </div>
+    </div>
+    </header>
+    <div class="space"></div>
+    <section class="primero">
+        <div class="container">
+        <article class="seccion">
+                <div class="video">
+                    <video width="400" controls class="clip" muted loop>
+                        <source src="img/Secuencia 01.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="info">
+                    <h1>Quienes Somos</h1>
+                    <p>&nbsp;</p>
+                    <p><span style='color:#02374F;'>Niuwedia Streaming México S.A.P.I de C.V</span>, representa un conjunto de
+                    proyectos comerciales de gran envergadura en los cuales se encuentran resumidos muchos y diferentes
+                    valores de desarrollo económico que generan empleo y riqueza. </p>
+                    <p>&nbsp;</p>
+                    <p>El portafolio de opciones de Niuwedia, incluye estrategias de mercado, hipermedios e imagen corporativa y
+                    un conjunto de herramientas de negocio para apoyar en forma efectiva, el crecimiento de nuestros clientes
+                    y asociados de negocio.</p>
+                    <p>&nbsp;</p>
+                    <p>Grandes innovaciones para la revolución industrial, la logística, la educación y los medios de
+                    comunicación, traducidas en la palabra progreso.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section class="banner">
+        <div class="container">
+      <div class="banner-1"><a href="#"><img src="img/Diseño Banner-01.png" /></a></div>
+    </div>
+    </section>
+    </section>
+ --><div class="space"><img src="img/Patron-02.png" /></div>
+    <section>
+        <div class="container">
+        <div class="contenedor2">
+                <div class="bloque"><img src="img/Diseño Columnas-01.png" /></div>
+                <div class="bloque"><img src="img/Diseño Columnas-02.png" /></div>
+                <div class="bloque"><img src="img/Diseño Columnas-03.png" /></div>
+                <div class="bloque"><img src="img/Diseño Columnas-04.png" /></div>
+                <div class="bloque"><img src="img/Diseño Columnas-05.png" /></div>
+                <div class="bloque"><img src="img/Diseño Columnas-06.png" /></div>
+        </div>
+    </div>
+    </section>
+    <footer class ="footer">
+        <div class ="container">
+            <div>
+            <p>Todos los derechos reservados - Niuwedia Streaming México</p>
+        </div>
+        </div>
+    </footer>
+       <script>
+           const menu = document.querySelector('.menu');
+           console.log(menu);
+            const burgerButton = document.querySelector('#burger-menu');
+            console.log(burgerButton);
+            burgerButton.addEventListener('click', hideShow);
+
+         function hideShow(){
+            if (menu.classList.contains('is-active')){
+                menu.classList.remove('is-active');
+            }else{
+                menu.classList.add('is-active');
+            }
+
+                
+
+            }
+       </script>   
+</body>
+
+</html>
